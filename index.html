@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" 
+    integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="content-wrapper">
+            <div class="main">
+                <h2 class="question" id="quiz">Question</h2>
+                <div class="list-items">
+                    <ul>
+                        <li>
+                            <input type="radio" name="questions" id="a" class="questions">
+                            <label for="a" id="quiz_a">Question a</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="questions" id="b" class="questions">
+                            <label for="b" id="quiz_b">Question b</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="questions" id="c" class="questions">
+                            <label for="c" id="quiz_c">Question c</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="questions" id="d" class="questions">
+                            <label for="d" id="quiz_d">Question d</label>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="footer">
+                <button class="btn">
+                    Next 
+                   
+                </button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
